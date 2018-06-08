@@ -1,0 +1,14 @@
+Package: AbstractScreening
+Type: Package
+Title: Screening of Abstracts
+Version: 0.1.0
+Author: Stijn Jaspers
+Maintainer: Stijn Jaspers <stijn.jaspers@uhasselt.be>
+Description: Using MLT to screen abstracts.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.4.0)
+Imports: shiny (>= 1.0.5), caretEnsemble (>= 2.0.0), recipes, rlang (>= 0.1.6), plyr (>= 1.8.4), xlsx (>= 0.5.7), tm (>= 	0.7-3), DT (>= 	0.2), ranger (>= 0.9.0), SnowballC (>= 0.5.1), wordcloud (>= 	2.5), e1071 (>= 1.6-8), kernlab (>= 0.9-25),  nnet (>= 7.3-12), caret (>= 6.0-78), topicmodels (>= 0.2-7), pROC (>= 1.10.0), DMwR (>= 0.4.1), randomForest (>= 4.6-12), hmeasure (>= 1.0), pdftools (>= 1.5), tabulizer (>= 0.1.24), tabulizerjars (>= 0.8.0), gbm (>= 2.1.3), ROSE (>= 0.0-3)
+Remotes: zachmayer/caretEnsemble, ropenscilabs/tabulizerjars, ropenscilabs/tabulizer
+RoxygenNote: 6.0.1
